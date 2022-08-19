@@ -15,8 +15,6 @@ public class AddFavorites {
         driver.findElement(By.id("menu-item-17_1302")).click();
         driver.findElement(By.xpath("//div[@data-id='16188']")).click();
 
-        Thread.sleep(5000);
-
         driver.quit();
     }
 }
